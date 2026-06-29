@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1,
+    "question": "Which standard Python module is used for working with regular expressions?",
+    "options": {
+      "A": "regex",
+      "B": "re",
+      "C": "regexp",
+      "D": "rules"
+    },
+    "correct_answer": "B",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "question": "Who is the founder of the Python programming language?",
+    "options": {
+      "A": "Dennis Ritchie",
+      "B": "Guido van Rossum",
+      "C": "James Gosling",
+      "D": "Bjarne Stroustrup"
+    },
+    "correct_answer": "B",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "What does the .get() method do for a Python dictionary?",
+    "options": {
+      "A": "It deletes a key-value pair.",
+      "B": "It returns a value for a key, or a default value if the key doesn't exist.",
+      "C": "It returns a list of all keys in the dictionary.",
+      "D": "It sorts the dictionary keys alphabetically."
+    },
+    "correct_answer": "B",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is an invalid variable name in Python?",
+    "options": {
+      "A": "my_var",
+      "B": "var_2",
+      "C": "2_var",
+      "D": "_var"
+    },
+    "correct_answer": "C",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5,
+    "question": "What is the purpose of Python's 'GIL' (Global Interpreter Lock)?",
+    "options": {
+      "A": "To encrypt source code to prevent unauthorized reverse engineering.",
+      "B": "To ensure only one thread executes Python bytecode at a time, making CPython's memory management safe.",
+      "C": "To lock nested loops from causing unexpected endless execution.",
+      "D": "To protect private class variables from being modified outside the module."
+    },
+    "correct_answer": "B",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 6,
+    "question": "Which keyword is used to define a function in Python?",
+    "options": {
+      "A": "func",
+      "B": "def",
+      "C": "function",
+      "D": "define"
+    },
+    "correct_answer": "B",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7,
+    "question": "Which Python collection is unordered, unchangeable, and does not allow duplicate values?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Dictionary",
+      "D": "Set"
+    },
+    "correct_answer": "D",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8,
+    "question": "What does SQL stand for?",
+    "options": {
+      "A": "Structured Query Language",
+      "B": "Simple Query Language",
+      "C": "Sequential Query Language",
+      "D": "Standard Query Language"
+    },
+    "correct_answer": "A",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of the '__init__' method in Python classes?",
+    "options": {
+      "A": "To destroy an object when it goes out of scope.",
+      "B": "To convert a class into a string representation.",
+      "C": "To initialize the attributes of an object when it is instantiated.",
+      "D": "To inherit methods from a parent class."
+    },
+    "correct_answer": "C",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 10,
+    "question": "Which method is called when an object is created from a Python class?",
+    "options": {
+      "A": "__new__()",
+      "B": "__construct__()",
+      "C": "__init__()",
+      "D": "init()"
+    },
+    "correct_answer": "C",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 11,
+    "question": "What is the correct syntax to create an empty list in Python?",
+    "options": {
+      "A": "my_list = []",
+      "B": "my_list = {}",
+      "C": "my_list = ()",
+      "D": "my_list = empty()"
+    },
+    "correct_answer": "A",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "What is the operator for exponentiation (power) in Python?",
+    "options": {
+      "A": "^",
+      "B": "pow",
+      "C": "**",
+      "D": "*^"
+    },
+    "correct_answer": "C",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "question": "What is the output of len('Python')?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "Error"
+    },
+    "correct_answer": "B",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 14,
+    "question": "What is the output of: print((lambda x: x * 2)(5))?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "Function object reference",
+      "D": "SyntaxError"
+    },
+    "correct_answer": "B",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 15,
+    "question": "Which of the following data types in Python is immutable?",
+    "options": {
+      "A": "List",
+      "B": "Dictionary",
+      "C": "Tuple",
+      "D": "Set"
+    },
+    "correct_answer": "C",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "What does Python's Method Resolution Order (MRO) determine in a multiple inheritance scenario?",
+    "options": {
+      "A": "The order in which class variables are garbage collected.",
+      "B": "The sequence Python searches for an attribute or method across parent classes.",
+      "C": "The order in which class decorators are executed.",
+      "D": "The speed optimization algorithm for calling static methods."
+    },
+    "correct_answer": "B",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 17,
+    "question": "Which data structure in Python uses a Last-In, First-Out (LIFO) approach when using .append() and .pop()?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Set",
+      "D": "Dictionary"
+    },
+    "correct_answer": "B",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 18,
+    "question": "What is the primary difference between a shallow copy and a deep copy of a nested list?",
+    "options": {
+      "A": "Shallow copy copies the top-level list structure but shares references to the nested lists; deep copy copies everything recursively.",
+      "B": "Shallow copy converts elements to strings; deep copy keeps them as numbers.",
+      "C": "Deep copy can only be performed on tuples, while shallow copy works on lists.",
+      "D": "There is no difference; they behave identically in modern Python versions."
+    },
+    "correct_answer": "A",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 19,
+    "question": "What is the output of type(lambda: None) in Python?",
+    "options": {
+      "A": "<class 'function'>",
+      "B": "<class 'lambda'>",
+      "C": "<class 'NoneType'>",
+      "D": "<class 'type'>"
+    },
+    "correct_answer": "A",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 20,
+    "question": "What is the output of the expression: 2 * 3 ** 2?",
+    "options": {
+      "A": "36",
+      "B": "18",
+      "C": "12",
+      "D": "64"
+    },
+    "correct_answer": "B",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 21,
+    "question": "What is the worst-case time complexity of searching in a balanced Binary Search Tree (BST)?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n log n)"
+    },
+    "correct_answer": "B",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 22,
+    "question": "Which Python collection is unordered, unchangeable, and does not allow duplicate values?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Dictionary",
+      "D": "Set"
+    },
+    "correct_answer": "D",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "question": "Which HTTP method is typically used to submit data to be processed to a specified resource?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "PUT",
+      "D": "DELETE"
+    },
+    "correct_answer": "B",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 24,
+    "question": "What keyword is used to turn a normal Python function into a generator?",
+    "options": {
+      "A": "return",
+      "B": "yield",
+      "C": "generate",
+      "D": "next"
+    },
+    "correct_answer": "B",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 25,
+    "question": "Which sorting algorithm has a best-case time complexity of O(n) when the array is already sorted?",
+    "options": {
+      "A": "Quick Sort",
+      "B": "Merge Sort",
+      "C": "Bubble Sort",
+      "D": "Selection Sort"
+    },
+    "correct_answer": "C",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 26,
+    "question": "Which OOP concept focuses on wrapping data (attributes) and methods together into a single unit?",
+    "options": {
+      "A": "Inheritance",
+      "B": "Polymorphism",
+      "C": "Encapsulation",
+      "D": "Abstraction"
+    },
+    "correct_answer": "C",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "In OOP, when a child class defines a method with the same name and signature as a method in its parent class, it is called:",
+    "options": {
+      "A": "Method Overloading",
+      "B": "Method Overriding",
+      "C": "Encapsulation",
+      "D": "Abstraction"
+    },
+    "correct_answer": "B",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "Which data structure from Python's 'collections' module should be used to implement an efficient queue with O(1) appends and pops from both ends?",
+    "options": {
+      "A": "OrderedDict",
+      "B": "namedtuple",
+      "C": "deque",
+      "D": "Counter"
+    },
+    "correct_answer": "C",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 29,
+    "question": "What is the value of x after executing: x = [1, 2, 3]; x.pop(1)?",
+    "options": {
+      "A": "[2, 3]",
+      "B": "[1, 3]",
+      "C": "[1, 2]",
+      "D": "[3]"
+    },
+    "correct_answer": "B",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "Which Python list method adds an element to the end of the list?",
+    "options": {
+      "A": "push()",
+      "B": "insert()",
+      "C": "add()",
+      "D": "append()"
+    },
+    "correct_answer": "D",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 31,
+    "question": "In which year, the Islamic Republic of Pakistan was born?",
+    "options": {
+      "A": "1969",
+      "B": "1926",
+      "C": "1947",
+      "D": "1906"
+    },
+    "correct_answer": "C",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 32,
+    "question": "Who is the national animal of Pakistan?",
+    "options": {
+      "A": "Tiger",
+      "B": "Markhor",
+      "C": "Deer",
+      "D": "Giraffe"
+    },
+    "correct_answer": "B",
+    "difficulty": "Easy"
+  }
+]
